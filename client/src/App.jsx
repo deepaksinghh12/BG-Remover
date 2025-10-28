@@ -10,9 +10,9 @@ const App = () => {
     <div className="min-h-screen bg-gray-50">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<div>Home</div>} />
-        <Route path='/buy' element={<div>BuyCredit</div>} />
-        <Route path='/result' element={<div>Result</div>} />
+        <Route path='/' element={<Home />} />
+        <Route path='/buy' element={<BuyCredit />} />
+        <Route path='/result' element={<Result />} />
       </Routes>
     </div>
   )
